@@ -11,6 +11,12 @@
 - pip install -e .
 > Virtualenv is not mandatory for code setup.
 
+### Setting up Database
+```sh
+python database/database_setup.py
+```
+> Execute the above command before starting the application.
+
 ### Executing Test Cases
 ```sh
 coverage run -m pytest -v test/ --cov=. --cov-report=html
