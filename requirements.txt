@@ -6,3 +6,6 @@ datetime
 marshmallow
 mysql-connector-python
 mysql
+pytest
+pytest-cov
+coverage

@@ -5,7 +5,7 @@ import sqlite3
 import os
 import sys
 
-if __name__ == "__main__":
+if __name__ == "__main__": # pragma: no cover
     path = os.path.realpath(__file__)
     path = os.path.join(path, os.pardir, os.pardir, "ebroker.db")
     path = os.path.abspath(path)

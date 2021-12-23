@@ -9,3 +9,6 @@ Setup(Linux/WSL)
 5. cd ebroker
 6. pip install -r requirements.txt
 7. pip install -e .
+
+Executing Test Cases
+  - coverage run -m pytest -v test/ --cov=. --cov-report=html
