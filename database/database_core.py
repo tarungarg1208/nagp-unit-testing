@@ -1,6 +1,6 @@
 import sqlite3
 import os
-from sqlite3.dbapi2 import connect
+# from sqlite3.dbapi2 import connect
 
 class EBrokerDatabase:
     """Class containing Methods for database connection and query"""
