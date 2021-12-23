@@ -26,3 +26,6 @@ def get_time():
 def get_dow():
     """returns dow"""
     return datetime.datetime.now().weekday()
+
+
+print(Utility.is_trading_allowed())

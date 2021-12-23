@@ -1,6 +1,7 @@
 # nagp-unit-testing
 NAGP Unit Testing Assignment
 
+Setup(Linux/WSL)
 1. Install python and pip
 2. Install virtualenv using pip  -> pip install virtualenv
 3. Create a virtual env -> python -m virtualenv my_venv

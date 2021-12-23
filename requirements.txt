@@ -4,3 +4,5 @@ flasgger
 webargs
 datetime
 marshmallow
+mysql-connector-python
+mysql
